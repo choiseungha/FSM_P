@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일\Idle">
+      <UniqueIdentifier>{ed092be4-f3cf-4257-95cc-ffedc62955a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Move">
+      <UniqueIdentifier>{c77a46e1-3728-43ed-bc25-053793905b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\State">
+      <UniqueIdentifier>{85817fce-503b-43e3-80bf-a6e9880d7350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Machine_State">
+      <UniqueIdentifier>{585e99ec-65b5-40d7-95c5-8be398645e43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Player">
+      <UniqueIdentifier>{a6176001-5c16-4a10-89f4-ea42059fadc3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S_Move.cpp">
+      <Filter>리소스 파일\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="S_Idle.cpp">
+      <Filter>리소스 파일\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="IState.cpp">
+      <Filter>리소스 파일\State</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Machine.cpp">
+      <Filter>리소스 파일\Machine_State</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>리소스 파일\Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="S_Move.h">
+      <Filter>리소스 파일\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="S_Idle.h">
+      <Filter>리소스 파일\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="IState.h">
+      <Filter>리소스 파일\State</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Machine.h">
+      <Filter>리소스 파일\Machine_State</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>리소스 파일\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
